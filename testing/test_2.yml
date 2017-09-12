@@ -1,0 +1,2 @@
+docker-ek_telegraf-repository: logimethods/ek_telegraf
+docker-ek_telegraf-tag: "1.0"
