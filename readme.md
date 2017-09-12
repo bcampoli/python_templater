@@ -24,10 +24,10 @@ Example:
 
 Let the following be a dictionary defined by a yaml file:
 
-`my-credentials: foo`
-
-`my-name: bar`
-
+```
+my-credentials: foo
+my-name: bar
+```
 Let the follwing be an input file:
 
 `hello world!
