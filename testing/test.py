@@ -11,6 +11,6 @@ def test(input_path, input_properties, verifier):
         f.write(original_data) #rewrite original data to retest
     return result
 
-print("Test case 1: "+test('testing/test_1.txt', 'testing/test_1.yml', 'testing/test_1_verification.txt'))
-print("Test case 2: "+test('testing/test_2.txt', 'testing/test_2.yml', 'testing/test_2_verification.txt'))
+print("Test case 1: "+test('test_1.txt', 'test_1.yml', 'test_1_verification.txt'))
+print("Test case 2: "+test('test_2.txt', 'test_2.yml', 'test_2_verification.txt'))
 #print("Test case 3: "+test('test_3.txt', 'test_3.yml', 'test_3_verification.txt'))  ---doesnt exist yet
