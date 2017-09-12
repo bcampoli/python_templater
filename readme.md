@@ -28,15 +28,18 @@ Let the following be a dictionary defined by a yaml file:
 my-credentials: foo
 my-name: bar
 ```
-Let the follwing be an input file:
+Let the following be an input file:
 
-`hello world!
+```
+hello world!
 I am a walrus!
 My name is ((my-name)) and I love to tell everyone my password which is ((my-credentials))
-`
+```
 
 Then the output after running the replace function is:
 
-`hello world!
+```
+hello world!
 I am a walrus!
-My name is bar and I love to tell everyone my password which is foo`
+My name is bar and I love to tell everyone my password which is foo
+```
