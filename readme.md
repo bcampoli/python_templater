@@ -20,9 +20,9 @@ Example:
 
 let the following be a dictionary defined by a yaml file:
 
-`my-credentials: foo
+`my-credentials: foo`
 
-my-name: bar`
+`my-name: bar`
 
 let the follwing be an input file:
 
