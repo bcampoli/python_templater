@@ -9,9 +9,9 @@ to use the templater module simply do:
 
 `templater.replace(input_file, properties_file)`
 
-Where `input_file` is the path to the file that needs replacements and `properties_file` is the path to the file storing the dictionary in yaml format.
+where `input_file` is the path to the file that needs replacements and `properties_file` is the path to the file storing the dictionary in yaml format.
 
-What it does:
+What it Does:
 =============
 
 Python Templater replaces keys or tags surrounded by (( )) with their corresponding value which is found in .yaml file. There is no support for nested tags at this time.
@@ -21,6 +21,7 @@ Example:
 let the following be a dictionary defined by a yaml file:
 
 `my-credentials: foo
+
 my-name: bar`
 
 let the follwing be an input file:
